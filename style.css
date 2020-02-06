@@ -1,0 +1,445 @@
+* {
+        margin: 0;
+        box-sizing: border-box;
+        font-family:  'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+}
+
+.grid-container {
+        display: grid;
+        grid-template-columns: 23% 46% 31%;
+}
+
+.row-banner, .main-content, .trends {
+        height: 100%;
+        background-color: #000;
+}
+
+.row-banner {
+        color: #fff;
+        position: static;
+}
+
+.main-content {
+        border-left: 1px solid rgba(217, 217, 217, 0.397);
+        border-right: 1px solid rgba(217, 217, 217, 0.397);
+        color: #fff;
+}
+
+.trends {
+        padding: 6px 32px;
+}
+
+.icons {
+        stroke: #D9D9D9; 
+        height: 25px;
+        width: 25px;
+        color: #D9D9D9;
+        margin: 0px 15px;
+}
+
+.left-side li {
+        padding: 12px;
+}
+
+.left-side {
+        font-weight: 700;
+        list-style-type: none;
+        padding: 30px 40px;
+        font-size: 20px;
+}
+
+ul li a {
+       text-decoration: none;
+       color: #D9D9D9;
+}
+
+.left-side li img{
+        margin-left: 12px;
+         border: none;
+         border-radius: 50%;
+         height: 30px;
+         width: 30px;
+}
+
+
+i:hover {
+        border-radius: 50%;
+        background-color: #031019;
+}
+
+.left-side li:hover {
+        background-color: #02130A;
+        padding: 12px;
+        border-radius: 60px;
+}
+
+.tweet-btn {
+        margin: 10px;
+        font-size: 14px;
+        border-radius: 60px;
+        background-color: #15AC59;
+        padding: 14px 80px;
+        text-align: center;
+        color: #D9D9D9;
+        border: none;
+}
+
+.tweet-btn:hover {
+        background-color:  rgba(21, 172, 89, 0.8);
+}
+
+.whats-happening {
+        border-bottom: 10px solid rgba(78, 78, 78, 0.397);
+        height: 128px;
+        overflow: hidden;
+}
+
+#textarea {
+        margin-top: 15px;
+        margin-left: 70px;
+        border: 0;
+        width: 540px;
+        height: 65px;
+        display: block;
+        background-color: black;
+        color: rgb(153, 149, 149);
+        outline: none;
+        font-size: 18px;
+        font-weight: 500;
+        resize: none;
+        overflow: hidden;
+}
+
+.line {
+        height: 35px;
+        border-right: 1px solid rgba(217, 217, 217, 0.397);
+        position: absolute;
+        top: 122px;
+        right: 560px;
+}
+
+.circle {
+        height: 20px;
+        width: 20px;
+        border: 2px solid rgba(114, 111, 111, 0.397);
+        border-radius: 50%;
+        position: absolute;
+        top: 130px;
+        right: 575px;
+}
+
+.circleplus {
+        position: absolute;
+        top: 130px;
+        right: 530px;
+}
+
+.circleplus:hover {
+        background-color: #02130A;
+        cursor: pointer;
+        border-radius: 50%;
+}
+
+.nav-links {
+        list-style: none;
+        margin-left: 27px;
+}
+
+.nav-links li {
+        display: inline-block;
+        padding: 0px 7px;
+}
+
+.nav-links li img {
+        height: 20px;
+        width: 20px;
+}
+
+.cta button{
+        position: absolute;
+        right: 440px;
+        top: 120px;
+        padding: 8px 14px;
+        border: 1px solid #15AC59;
+        border-radius: 40px;
+        background-color: #15AC59;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+}
+
+.main-content-item1, .main-content-item2, .main-content-item3 {
+        padding-left: 75px;
+        padding-right: 10px;
+}
+
+.main-content-item1 {
+        height: 160px;
+        width: 100%;
+        border-bottom: 1px solid rgba(217, 217, 217, 0.397);
+        font-size: 14px;
+        line-height: 21px;
+}
+
+ .main-content-item1-img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        left: 322px;
+        top: 205px;
+}
+ 
+
+
+
+
+.main-content-item2 {
+        height: 500px;
+        width: 100%;
+        border-bottom: 1px solid rgba(217, 217, 217, 0.397);
+}
+
+.main-content-item3 {
+
+}
+
+
+
+.whats-happening-img {
+        border-radius: 50%;
+        position: absolute;
+        top: 60px;
+        left: 323px;
+}
+
+.home-bar {
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid rgba(217, 217, 217, 0.397);
+        color: #D9D9D9;
+        font-weight: 900;
+        font-size: 19px;
+        padding: 12px;
+        cursor: pointer;;
+}
+
+.home-star {
+        stroke: #15AC59;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 440px;
+}
+
+.txtb {
+        width: 100%;
+        height: 40px;
+        background-color: #15181C;
+        border-radius: 40px;
+}
+
+.txtb input {
+        color: #D9D9D9;
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        border: 0;
+        padding: 0 50px;
+        outline: none;
+        background-color: #15181C;
+}
+
+.trends .txtb i {
+        color: rgba(217, 217, 217, 0.397);
+        font-size: 20px;
+        position: absolute;
+        top: 18px;
+        right: 355px;
+}
+
+.trends-for-you {
+        background-color: #15181C;
+        height: 400px;
+        width: 100%;
+        border: none;
+        border-radius: 13px;
+        margin-top: 10px ;
+}
+
+h3 {
+        padding: 10px 17px;
+}
+
+.who-to-follow {
+        background-color: #15181C;
+        height: 150px;
+        width: 100%;
+        border: none;
+        border-radius: 13px;
+        margin-top: 10px;
+}
+
+footer {
+        margin: 15px;
+        line-height: 21px;
+}
+
+.trends footer span{
+        color: rgba(217, 217, 217, 0.397);
+        font-size: 12px;
+        margin: 1px;
+        padding: 10px 8px;
+}
+
+.trends footer span:hover {
+        text-decoration: underline;
+        cursor: pointer;
+}
+
+h3 {
+        color: #fff;
+        font-weight: 1000;
+}
+
+.trends-for-you i {
+        color: #15AC59;
+        font-size: 20px;
+        position: absolute;
+        right: 45px;
+        top: 69px
+}
+
+.trends-for-you-item1 {
+        height: 100px;
+        width: 100%;
+        border-top: 1px solid rgba(217, 217, 217, 0.397);
+
+}
+
+.trends-for-you-item2 {
+        height: 50px;
+        width: 100%;
+        border-top: 1px solid rgba(217, 217, 217, 0.397);
+        margin-top: 1px;
+}
+
+.trends-for-you-item3 {
+        height: 50px;
+        width: 100%;
+        border-top: 1px solid rgba(243, 241, 241, 0.397);
+        margin-top: 70px;
+}
+
+.trends-for-you-item4 {
+        height: 100px;
+        width: 100%;
+        border-top: 1px solid rgba(217, 217, 217, 0.397);
+        margin-top: 35px;
+        color: #15AC59;
+        padding: 10px 17px;
+        font-size: 14px;
+}
+
+.trends-for-you-item5 {
+        height: 100px;
+        width: 100%;
+        border-top: 1px solid rgba(217, 217, 217, 0.397);
+        margin-top: 35px;
+}
+
+
+.who-to-follow-item1 {
+        height: 60px;
+        width: 100%;
+        border-top: 1px solid rgba(217, 217, 217, 0.397);
+        margin-top: 0px;
+}
+
+.who-to-follow-item1:hover {
+        background-color: rgba(53, 57, 63, 0.1);
+        cursor: pointer;
+}
+
+.who-to-follow-item2 {
+        height: 70px;
+        width: 100%;
+        border-top: 1px solid rgba(217, 217, 217, 0.397);
+        color: #15AC59;
+         padding: 10px 17px;
+         font-size: 14px;
+}
+
+.small-font, .medium-font, .large-font {
+        padding-left: 18px;
+        line-height: 20px;
+        position: relative;
+        top: 10px;
+}
+
+.small-font {
+        font-size: 12px;
+        color: rgba(217, 217, 217, 0.397);
+}
+
+.medium-font {
+        font-size: 13px;
+        color: rgba(217, 217, 217, 0.397);
+}
+
+.large-font {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+}
+
+.follow-btn {
+        position: absolute;
+        right: 59px;
+        bottom: 137px;
+        padding: 5px 16px;
+        border: 1px solid #15AC59;
+        border-radius: 40px;
+        background-color: #15181C;
+        cursor: pointer;
+        color: #15AC59;
+        font-weight: 700;
+}
+
+.follow-btn:hover {
+        background-color: rgba(21, 172, 89, 0.1);
+}
+
+.follow-img {
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        right: 330px;
+        top: 522px;
+        height: 40px;
+        width: 40px;
+}
+
+.follow-large-font, .follow-medium-font {
+        padding-left: 71px;
+        line-height: 20px;
+        position: relative;
+        top: 10px;
+}
+
+.follow-large-font {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+}
+
+.follow-large-font:hover {
+        text-decoration: underline;
+        cursor: pointer;
+}
+
+.follow-medium-font {
+         font-size: 13px;
+         color: rgba(217, 217, 217, 0.397);
+}
